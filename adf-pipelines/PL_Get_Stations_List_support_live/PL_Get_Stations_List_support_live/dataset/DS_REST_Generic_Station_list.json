@@ -1,0 +1,16 @@
+{
+    "name": "DS_REST_Generic_Station_list",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "LS_GIOS_API",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "RestResource",
+        "typeProperties": {
+            "relativeUrl": "/pjp-api/rest/station/findAll"
+        },
+        "schema": []
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}
