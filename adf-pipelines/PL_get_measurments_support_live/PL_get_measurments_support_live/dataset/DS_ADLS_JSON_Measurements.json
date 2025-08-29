@@ -1,0 +1,21 @@
+{
+    "name": "DS_ADLS_JSON_Measurements",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "LS_ADLS_AirQuality",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "Json",
+        "typeProperties": {
+            "location": {
+                "type": "AzureBlobFSLocation",
+                "fileName": "measurements.json",
+                "folderPath": "measurments",
+                "fileSystem": "raw"
+            }
+        },
+        "schema": {}
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}

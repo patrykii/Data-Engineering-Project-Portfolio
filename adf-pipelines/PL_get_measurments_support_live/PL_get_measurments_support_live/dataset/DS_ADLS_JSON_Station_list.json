@@ -1,0 +1,21 @@
+{
+    "name": "DS_ADLS_JSON_Station_list",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "LS_ADLS_AirQuality",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "Json",
+        "typeProperties": {
+            "location": {
+                "type": "AzureBlobFSLocation",
+                "fileName": "stations.json",
+                "folderPath": "sensors_data",
+                "fileSystem": "raw"
+            }
+        },
+        "schema": {}
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}

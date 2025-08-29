@@ -1,0 +1,14 @@
+{
+    "name": "LS_GIOS_API",
+    "type": "Microsoft.DataFactory/factories/linkedservices",
+    "properties": {
+        "description": "Polaczenie do API Głównego Inspektoratu Ochrony Środowiska (GIOS)",
+        "annotations": [],
+        "type": "RestService",
+        "typeProperties": {
+            "url": "https://api.gios.gov.pl",
+            "enableServerCertificateValidation": true,
+            "authenticationType": "Anonymous"
+        }
+    }
+}
