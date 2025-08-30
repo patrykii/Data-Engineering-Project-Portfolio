@@ -25,7 +25,7 @@ Here is a demonstration of the final interactive Power BI report. The dashboard 
 The project follows a modern data platform architecture, ensuring scalability and automation.
 
 ![Architecture Diagram](showcase/project_architecture.png)  
-*(Tutaj wstaw swój diagram, jeśli go stworzyłeś. Jeśli nie, usuń tę linię.)*
+
 
 ### Technology Stack
 * **Orchestration:** Azure Data Factory
