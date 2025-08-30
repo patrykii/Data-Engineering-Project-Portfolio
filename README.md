@@ -24,7 +24,6 @@ Here is a demonstration of the final interactive Power BI report. The dashboard 
 
 The project follows a modern data platform architecture, ensuring scalability and automation.
 
-![Architecture Diagram](/showcase/)  
 
 
 ### Technology Stack
